@@ -1,5 +1,24 @@
 # Project 2 @ CSC 201 Fall 2024: AVL Tree
 
+The graphs of my runtimes are posted below:
+I collected these runtimes through running my proj2.java program(which collects runtime data for insertion and search methods on avl and binary search trees)
+In each run I would change the number of nodes, I ran this 5 times and collected the average runtime for each operation (all permutations of BST vs AVL, Insert and Serch operations and sorted vs unsorted datasets)
+The outcome of my graphs were as expected, the bst and avl trees had similar runtimes for the insert method. However, for the search method the avl tree performed much faster than the bst with a higher nodecount
+This outcome makes logical sense as BST search time is O(n) while AVLs is 0(log n)
+
+\\\\\\\\GRAPHS////////
+Runtimes (Insertion)
+![img.png](img.png)
+Runtimes (search)
+![img_1.png](img_1.png)
+RunRates (Insertion)
+![img_2.png](img_2.png)
+RunRates (search) 
+![img_3.png](img_3.png)
+
+
+
+
 ## Pledged Work Policy
 
 This is a ___Pledged Work___ assignment.  This means that the work you submit for grading ___must___ be your work product.  
